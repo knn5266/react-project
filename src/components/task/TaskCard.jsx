@@ -12,7 +12,7 @@ export const TaskCard = () => {
       <TaskCardsTitle />
       <TaskCardDeleteButton />
       <TaskAddInput inputText={inputText} setInputText={setInputText} taskList={taskList} setTaskList={setTaskList}/>
-      <Tasks />
+      <Tasks inputText={inputText} taskList={taskList} setTaskList={setTaskList}/>
     </div>
   )
 }

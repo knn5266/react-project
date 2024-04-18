@@ -6,7 +6,6 @@ export const TaskCardsTitle = () => {
 
   const handleClick = () => {
     setIsClick(true)
-    console.log(isClick)
   }
 
   const handleChange= (e) => {setInputCardTitle(e.target.value)
